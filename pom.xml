@@ -39,7 +39,7 @@
         </license>
     </licenses>
     <properties>
-        <version.org.jboss.eap>7.4.0.Beta-redhat-00001</version.org.jboss.eap>
+        <version.org.jboss.eap>7.4.0.CD20-redhat-00002</version.org.jboss.eap>
         <version.org.wildfly.galleon-plugins>5.1.1.Final</version.org.wildfly.galleon-plugins>
         <version.org.wildfly.core>14.0.1.Final-redhat-00001</version.org.wildfly.core>
         <version.org.jboss.jboss-dmr>1.5.1.Final-redhat-00001</version.org.jboss.jboss-dmr>
