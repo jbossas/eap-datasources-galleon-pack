@@ -118,6 +118,20 @@
 
     <pluginRepositories>
         <pluginRepository>
+            <id>jboss-eap-8.0-product-repository</id>
+            <name>JBoss EAP Product Repository</name>
+            <url>https://download.devel.redhat.com/brewroot/repos/jb-eap-8.0-maven-build/latest/maven/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
             <id>jboss-earlyaccess-repository-group</id>
             <name>JBoss EarlyAccess Repository Group</name>
             <url>https://maven.repository.redhat.com/earlyaccess/all</url>
@@ -133,6 +147,20 @@
         </pluginRepository>
     </pluginRepositories>
     <repositories>
+        <repository>
+            <id>jboss-eap-8.0-product-repository</id>
+            <name>JBoss EAP Product Repository</name>
+            <url>https://download.devel.redhat.com/brewroot/repos/jb-eap-8.0-maven-build/latest/maven/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+                <updatePolicy>never</updatePolicy>
+            </snapshots>
+        </repository>
         <repository>
             <id>jboss-public-repository-group</id>
             <name>JBoss Public Repository Group</name>
