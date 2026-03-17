@@ -50,6 +50,10 @@
         <version.org.jboss.jboss-dmr>1.7.0.Final-redhat-00001</version.org.jboss.jboss-dmr>
         <version.org.wildfly.core>32.0.0.Beta1</version.org.wildfly.core>
         <version.org.wildfly.galleon-plugins>8.1.0.Final</version.org.wildfly.galleon-plugins>
+        <!-- test dependencies -->
+        <version.org.wildfy.glow>1.5.2.Final</version.org.wildfy.glow>
+        <version.jakarta.annotations>3.0.0</version.jakarta.annotations>
+        <version.org.jboss.shrinkwrap>1.2.6</version.org.jboss.shrinkwrap>
         <jbossas.repo.scm.connection>git@github.com:jbossas/eap-datasources-galleon-pack.git</jbossas.repo.scm.connection>
         <jbossas.repo.scm.url>https://github.com/jbossas/eap-datasources-galleon-pack</jbossas.repo.scm.url>   
     </properties>
@@ -92,6 +96,34 @@
                 <groupId>javax.inject</groupId>
                 <artifactId>javax.inject</artifactId>
                 <version>${version.inject}</version>
+            </dependency>
+            <dependency>
+              <groupId>org.wildfly.glow</groupId>
+              <artifactId>wildfly-glow-core</artifactId>
+              <version>${version.org.wildfy.glow}</version>
+              <scope>test</scope>
+            </dependency>
+            <dependency>
+              <groupId>org.wildfly.glow</groupId>
+              <artifactId>wildfly-glow-maven-resolver</artifactId>
+              <version>${version.org.wildfy.glow}</version>
+              <scope>test</scope>
+            </dependency>
+            <dependency>
+              <groupId>jakarta.annotation</groupId>
+              <artifactId>jakarta.annotation-api</artifactId>
+              <version>${version.jakarta.annotations}</version>
+              <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.shrinkwrap</groupId>
+                <artifactId>shrinkwrap-api</artifactId>
+                <version>${version.org.jboss.shrinkwrap}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jboss.shrinkwrap</groupId>
+                <artifactId>shrinkwrap-impl-base</artifactId>
+                <version>${version.org.jboss.shrinkwrap}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
