@@ -93,5 +93,6 @@
     
     <modules>
         <module>galleon</module>
+        <module>layers-metadata-unit-tests</module>
     </modules>
 </project>
